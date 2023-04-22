@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Tekken;
+  src: url('./assets/tarrgetcond.ttf');
+}
+
+:root {
+  background-color: #242424;
+}
+
+#background {
+  background-image: url("./assets/versus.png");
+  background-repeat: no-repeat;
+  font-family: Tekken;
+}
